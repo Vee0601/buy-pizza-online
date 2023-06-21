@@ -1,0 +1,125 @@
+body {
+    background-color: khaki;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header {
+    padding: 1em;
+    background-color: rgb(42, 165, 130);
+    display: flex;
+    border-radius: 0.5em;
+}
+
+.cart-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart {
+    background-color: rgb(100, 0, 128);
+    padding: 1em;
+    width: 100%;
+    margin-top: -10em;
+    border-radius: 0.5em;
+}
+
+.f1 {
+    flex: 3;
+}
+
+.f2 {
+    flex: 1;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid;
+}
+
+td {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+th,td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.pizza {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid rgb(255, 0, 195);
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+.medium {
+    background-color: #fc53c6;
+}
+
+.large {
+    background-color: peachpuff;
+}
+
+.small {
+    background-color: palevioletred;
+}
+
+.contacts {
+    background-color: pink;
+}
+
+.message {
+    padding: 1em;
+    color: rgb(65, 64, 64);
+    font-weight: bold;
+    background-color: rgb(244, 96, 224);
+}
+
+.input {
+    padding: 1em;
+    margin: 1em;
+}
+
+.link {
+    background-color: lightseagreen;
+    width: 15em;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.btn {
+    padding: 1em 0em 1em 0em;
+    width: 5em;
+    background-color: aqua;
+    color:deeppink;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    border-radius: 0.25em;
+}
+
+.buy {
+    width: 7em;
+    margin-bottom: 1em;
+}
+
+@media (min-width: 750px) {
+    .pizzas {
+        display: flex;
+    }
+
+    .cart {
+        width: 50%;
+    }
+}
